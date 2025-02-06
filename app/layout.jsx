@@ -5,9 +5,9 @@ export default function layout({ children }) {
         <title>Next.Js</title>
       </head>
       <body>
-        <header>[Header]</header>
+        <header style={{ border: '1px solid black' }}>[Header]</header>
         <main>{children}</main>
-        <footer>[Footer]</footer>
+        <footer style={{ border: '1px solid black' }}>[Footer]</footer>
       </body>
     </html>
   );
